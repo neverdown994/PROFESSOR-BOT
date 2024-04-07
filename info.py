@@ -17,7 +17,7 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
-PICS = (environ.get('PICS' ,'https://graph.org/file/01ddfcb1e8203879a63d7.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg https://graph.org/file/a125497b6b85a1d774394.jpg https://graph.org/file/43d26c54d37f4afb830f7.jpg https://graph.org/file/60c1adffc7cc2015f771c.jpg https://graph.org/file/d7b520240b00b7f083a24.jpg https://graph.org/file/0f336b0402db3f2a20037.jpg https://graph.org/file/39cc4e15cad4519d8e932.jpg https://graph.org/file/d59a1108b1ed1c6c6c144.jpg https://te.legra.ph/file/3a4a79f8d5955e64cbb8e.jpg https://graph.org/file/d69995d9846fd4ad632b8.jpg')).split()
+PICS = (environ.get('PICS' ,'https://graph.org/file/c686bf347ff914d9e03fc.jpg https://graph.org/file/a63284fff6ab5dbf23d40.jpg https://graph.org/file/89b600aabbc700484ca34.jpg https://graph.org/file/b742e5ff9a2c3c595c1ed.jpg https://graph.org/file/28c6128c8a96efb003fa7.jpg https://graph.org/file/ebc1ee93e0ccd1516aedd.jpg https://graph.org/file/b3deea013e751f77fb19a.jpg https://graph.org/file/25ecc6bebe5226a654ed2.jpg https://graph.org/file/0d801bbdc16c1357cd59c.jpg')).split()
 UPTIME = time.time()
 
 # Admins, Channels & Users
